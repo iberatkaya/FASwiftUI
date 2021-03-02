@@ -59,6 +59,8 @@ enum FACollection: String {
             return UIFont.familyNames.contains(collection.rawValue)
         #elseif os(OSX)
             return NSFontManager.shared.availableFontFamilies.contains(collection.rawValue)
+        #elseif os(watchOS)
+            return UIFont.familyNames.contains(collection.rawValue)
         #endif
     }
 }
