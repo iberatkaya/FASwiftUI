@@ -17,7 +17,7 @@ let package = Package(
             targets: ["FASwiftUI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Q-Mobile/QGrid", from: "0.1.2")
+        .package(url: "https://github.com/iberatkaya/QGrid.git", .branch("master"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

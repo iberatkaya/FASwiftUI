@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "QGrid",
-        "repositoryURL": "https://github.com/Q-Mobile/QGrid",
+        "repositoryURL": "https://github.com/iberatkaya/QGrid.git",
         "state": {
-          "branch": null,
-          "revision": "ab5a0428d2b192df92af5eba4ecb48f574c3612d",
-          "version": "0.1.2"
+          "branch": "master",
+          "revision": "f3c3b3b95c6c4d1702e81ed31fed4a5cb8687207",
+          "version": null
         }
       }
     ]
